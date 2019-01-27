@@ -56,8 +56,8 @@ app.get("/labels", function (req, res) {
 app.get("/data", function (req, res) {
     res.json(data);
 });
-app.listen(3000);
+app.listen(process.env.PORT || 8000);
 
-console.log("Express app running on port 3000");
+console.log("Express app running on port "+ process.env.PORT || 8000);
 
 module.exports = app;
