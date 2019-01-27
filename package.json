@@ -1,11 +1,11 @@
 {
   "name": "wolt",
   "version": "1.0.0",
-  "description": "Wolt Coding Task 2019-Pickup times",
-  "main": "server.js",
+  "description": "wwWolt Coding Task 2019-Pickup times",
+  "main": "server.js pickup_times.csv",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js pickup_times.csv"
   },
   "author": "Dat Ngo",
   "license": "ISC",
