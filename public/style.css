@@ -1,0 +1,96 @@
+#map {
+   height: 40vw;
+    width: 40vw;
+    position: relative;
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .content{
+      display: flex;
+      text-align: left;
+      width: 80%;
+      margin: auto;
+      justify-content: space-around;
+  }
+  .left-side{
+    display:flex;
+    width:40vw;
+     flex-direction: column;
+    position: relative;
+}
+  @media (max-width:936px){
+    .content{
+        flex-direction: column-reverse;
+        width:100%;
+    }
+    .left-side{
+        align-items: center;
+        width:100%;
+    }
+    #map{
+        height: 40vh;
+        width: 95vw;
+        margin: 0px auto 60px;
+  
+    }
+
+  }
+  #result { 
+    margin: 40px auto; 
+    height: 500px; 
+    width: 400px;
+    overflow: auto; 
+  }
+  #result th  div { 
+      position: absolute; 
+      margin-top: -20px; 
+  }
+  table {
+    border-collapse: collapse;  
+    margin:20px;
+    position: relative;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 50vh;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+  
+   input {
+       margin: 10px;
+       width:200px;
+   }
+   select {
+    margin: 10px;
+    width:200px;
+}
+   .title {
+    margin: 50px auto;
+    width: 500px;
+}
+   
+
+   form {
+       display: flex;
+       flex-direction: column;
+       width:300px;
+       margin: auto;
+       border-radius:2px;
+        padding:20px 30px;
+        box-shadow:0 0 5px;
+        font-weight:bold;
+   }
+   

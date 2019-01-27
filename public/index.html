@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    
+    <title>Wolt Coding Task 2019 - "Pickup times"</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+     
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <h1 class="title">Calculate median pick up times</h1>
+      <div class="content">
+    <div class="left-side">
+        
+    
+    
+      <form id="form">
+     
+        <label>
+      Choose date:
+    </label>
+        <input type = "date" id="date">
+        <label>
+            Choose one hour interval:
+        </label>
+        
+          <select id="interval">
+            <option value="0">0-1</option>
+            <option value="1">1-2</option>
+            <option value="2">2-3</option>
+            <option value="3">3-4</option>
+            <option value="4">4-5</option>
+            <option value="5">5-6</option>
+            <option value="6">6-7</option>
+            <option value="7">7-8</option>
+            <option value="8">8-9</option>
+            <option value="9">9-10</option>
+            <option value="10">10-11</option>
+            <option value="11">11-12</option>
+            <option value="12">12-13</option>
+            <option value="13">13-14</option>
+            <option value="14">14-15</option>
+            <option value="15">15-16</option>
+            <option value="16">16-17</option>
+            <option value="17">17-18</option>
+            <option value="18">18-19</option>
+            <option value="19">19-20</option>
+            <option value="20">20-21</option>
+            <option value="21">21-22</option>
+            <option value="22">22-23</option>
+            <option value="23">23-0</option>
+          </select>
+  
+
+          <input class="btn" type="Submit" value="Submit">
+    
+   
+    
+    </form>
+    <div id="result"></div>
+    </div>
+    
+    <div id="map"></div>
+  </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src= "js/calculateMedian.js"></script>
+    <script src= "/js/index.js"></script>
+    
+    
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    
+   
+    <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcTziJMTxMyLmKesAZ4rWTEnQ0zZkOJ20&callback=initMap">
+    </script>
+  </body>
+</html>
